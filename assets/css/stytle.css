@@ -1,0 +1,132 @@
+* {
+    font-family: 'Open-Sans';
+}
+
+h1,h2,h3,h4,h5 {
+    margin: 0;
+}
+
+body {
+    
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    height: 1056px;
+    background: url(../images/Background-header.jpg) no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.header ::after {
+    content: '';
+    width: 812px;
+    height: 939px;
+    position: absolute;
+    background: url(../images/makaron.png) no-repeat;
+    background-size: contain;
+    bottom: -130px;
+    right: 0;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 120px;
+    margin-right: 60px;
+}
+
+.menu__link {
+    padding: 0 29px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.menu__link:hover {
+    color: gray;
+    cursor: pointer;
+}
+
+.menu__seacrh {
+    width: 180px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #fff;
+}
+
+.menu__icon {
+    margin: 10px 20px;
+    float: right;
+}
+
+.menu__icon:hover {
+    cursor: pointer;
+}
+
+.header__logo {
+    margin: 80px 0 60px;
+}
+
+.header__title {
+    margin: 0;
+    font-family: 'Reey';
+    font-size: 110px;
+}
+
+@font-face {
+	font-family: 'Reey'; 
+	src: url(../fonts/reey-regular.otf); 
+}
+
+.header__subtitle {
+    font-family: 'OpenSans';
+    margin-top: 100px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+@font-face {
+	font-family: 'OpenSans'; 
+	src: url(../fonts/Open_Sans/OpenSans-BoldItalic.ttf); 
+}
+
+.header__btn {
+    margin-top: 60px;
+    width: 220px;
+    height: 48px;
+    text-transform: uppercase;
+    background-color: #eceded;
+    border-radius: 30px;
+    color: #2e3034;
+    vertical-align: middle;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'OpenSansEB';
+    padding-top: 5px;
+}
+
+.header__btn:hover {
+    cursor: pointer;
+}
+
+@font-face {
+	font-family: 'OpenSansEB'; 
+	src: url(../fonts/Open_Sans/OpenSans-ExtraBold.ttf); 
+}
+
+@font-face {
+	font-family: 'OpenSansI'; 
+	src: url(../fonts/Open_Sans/OpenSans-Italic.ttf); 
+}
+
+.header__description {
+    width: 480px;
+    font-family: 'OpenSansI';
+    font-size: 20px;
+    margin-top: 24px;
+}
